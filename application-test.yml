@@ -1,0 +1,13 @@
+﻿spring:
+  profiles:
+    active:
+    - test
+---
+spring:
+  profiles: test   #测试环境
+  application: 
+    name: microservicecloud-config-atguigu-test
+#  请保存为UTF-8格式
+ 
+ 
+
